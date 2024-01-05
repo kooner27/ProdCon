@@ -1,6 +1,7 @@
-Running Instructions:\
-g++ sem.cpp -o prodcon\
-./prodcon <nthreads> <id>\
-
+## Running Instructions
+```shell
+g++ sem.cpp -o prodcon
+./prodcon <nthreads> <id> <inputexample
+```
 This will spawn 'nthreads' number of consumers and activity will be logged in prodon.id.log.
-See the pdf for more detail.
+Please see the pdf for more details such as example output. In the file sem2.cpp, I am working on an implementation that doesn't rely on pthread conditionals and instead uses only semaphores for everything.
